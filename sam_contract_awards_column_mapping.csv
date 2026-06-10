@@ -1,0 +1,183 @@
+original_column,short_name,description,section
+contractId.awardOrIDV,award_or_idv,Whether record is Award or IDV,Contract ID
+contractId.awardOrIDVTypeCode,award_type_cd,Award/IDV type code (A/B/C etc.),Contract ID
+contractId.awardOrIDVTypeName,award_type_nm,Award/IDV type name (e.g. PURCHASE ORDER),Contract ID
+contractId.agencyId,agency_id,Awarding agency ID code,Contract ID
+contractId.awardingSubTierAgencyCode,subtier_cd,Awarding sub-tier agency code,Contract ID
+contractId.awardingSubTierAgencyName,subtier_nm,Awarding sub-tier agency name,Contract ID
+contractId.officeid,office_cd,Awarding office code,Contract ID
+contractId.piid,piid,Procurement Instrument Identifier,Contract ID
+contractId.modNumber,mod_num,Modification number,Contract ID
+contractId.transactionNumber,trans_num,Transaction number,Contract ID
+contractId.referencedIDVPIID,ref_idv_piid,Referenced IDV PIID,Contract ID
+contractId.referencedIDVAgencyId,ref_idv_agency_id,Referenced IDV agency ID,Contract ID
+contractId.referencedIDVModNumber,ref_idv_mod_num,Referenced IDV modification number,Contract ID
+contractId.solicitationID,solicitation_id,Solicitation identifier,Contract ID
+contractId.documentVersion,doc_version,Document version number,Contract ID
+awardDetails.programmaticData.awardType.code,prg_award_type_cd,Programmatic award type code,Award Details
+awardDetails.programmaticData.awardType.name,prg_award_type_nm,Programmatic award type name,Award Details
+awardDetails.programmaticData.multiYearContract.code,multi_yr_cd,Multi-year contract indicator code,Award Details
+awardDetails.programmaticData.multiYearContract.name,multi_yr_nm,Multi-year contract indicator name,Award Details
+awardDetails.programmaticData.costOrPricingData.code,cost_price_data_cd,Cost or pricing data code,Award Details
+awardDetails.programmaticData.costOrPricingData.name,cost_price_data_nm,Cost or pricing data name,Award Details
+awardDetails.programmaticData.typeOfIDC.code,idc_type_cd,Type of indefinite delivery contract code,Award Details
+awardDetails.programmaticData.typeOfIDC.name,idc_type_nm,Type of indefinite delivery contract name,Award Details
+awardDetails.programmaticData.reasonForModification.code,mod_reason_cd,Reason for modification code,Award Details
+awardDetails.programmaticData.reasonForModification.name,mod_reason_nm,Reason for modification name,Award Details
+awardDetails.programmaticData.typeOfContractPricing.code,pricing_type_cd,Contract pricing type code,Award Details
+awardDetails.programmaticData.typeOfContractPricing.name,pricing_type_nm,Contract pricing type name,Award Details
+awardDetails.programmaticData.nationalInterestActionCode.code,natl_interest_cd,National interest action code,Award Details
+awardDetails.programmaticData.nationalInterestActionCode.name,natl_interest_nm,National interest action name,Award Details
+awardDetails.programmaticData.undefinitizedAction.code,undef_action_cd,Undefinitized action code,Award Details
+awardDetails.programmaticData.undefinitizedAction.name,undef_action_nm,Undefinitized action name,Award Details
+awardDetails.programmaticData.consolidatedContract.code,consolidated_cd,Consolidated contract code,Award Details
+awardDetails.programmaticData.consolidatedContract.name,consolidated_nm,Consolidated contract name,Award Details
+awardDetails.programmaticData.performanceBasedServiceContract.code,perf_based_svc_cd,Performance-based service contract code,Award Details
+awardDetails.programmaticData.performanceBasedServiceContract.name,perf_based_svc_nm,Performance-based service contract name,Award Details
+awardDetails.dollarValues.obligatedAmount,obligated_amt,Dollars obligated on this action,Award Details
+awardDetails.dollarValues.baseAndExercisedOptionsValue,base_opt_val,Base and exercised options value,Award Details
+awardDetails.dollarValues.baseAndAllOptionsValue,base_all_opt_val,Base and all options value,Award Details
+awardDetails.dollarValues.totalDollarsObligated,total_obligated_amt,Total cumulative dollars obligated,Award Details
+awardDetails.dollarValues.totalBaseAndExercisedOptionsValue,total_base_opt_val,Total base and exercised options value,Award Details
+awardDetails.dollarValues.totalBaseAndAllOptionsValue,total_base_all_opt_val,Total base and all options value,Award Details
+awardDetails.dollarValues.nonGovernmentDollarsObligated,non_gov_obligated_amt,Non-government dollars obligated,Award Details
+awardDetails.dates.approvedDate,approved_dt,Date action was approved,Award Details
+awardDetails.dates.dateSigned,signed_dt,Date contract was signed,Award Details
+awardDetails.dates.effectiveDate,effective_dt,Contract effective date,Award Details
+awardDetails.dates.startDate,start_dt,Period of performance start date,Award Details
+awardDetails.dates.currentCompletionDate,curr_completion_dt,Current completion date,Award Details
+awardDetails.dates.ultimateCompletionDate,ult_completion_dt,Ultimate completion date,Award Details
+awardDetails.dates.closedDate,closed_dt,Date contract was closed,Award Details
+awardDetails.dates.lastModifiedDate,last_mod_dt,Date record was last modified,Award Details
+awardDetails.dates.createdDate,created_dt,Date record was created,Award Details
+awardDetails.dates.fiscalYear,fiscal_year,Federal fiscal year,Award Details
+awardDetails.contractDetails.descriptionOfContractRequirement,contract_desc,Description of contract requirement,Contract Details
+awardDetails.contractDetails.contractActionType.code,action_type_cd,Contract action type code,Contract Details
+awardDetails.contractDetails.contractActionType.name,action_type_nm,Contract action type name,Contract Details
+awardDetails.contractDetails.solicitationProcedures.code,solicitation_proc_cd,Solicitation procedures code,Contract Details
+awardDetails.contractDetails.solicitationProcedures.name,solicitation_proc_nm,Solicitation procedures name,Contract Details
+awardDetails.contractDetails.typeOfSetAside.code,set_aside_cd,Type of set-aside code,Contract Details
+awardDetails.contractDetails.typeOfSetAside.name,set_aside_nm,Type of set-aside name,Contract Details
+awardDetails.contractDetails.evaluatedPreference.code,eval_pref_cd,Evaluated preference code,Contract Details
+awardDetails.contractDetails.evaluatedPreference.name,eval_pref_nm,Evaluated preference name,Contract Details
+awardDetails.contractDetails.extentCompeted.code,extent_competed_cd,Extent competed code,Contract Details
+awardDetails.contractDetails.extentCompeted.name,extent_competed_nm,Extent competed name,Contract Details
+awardDetails.contractDetails.reasonNotCompeted.code,not_competed_cd,Reason not competed code,Contract Details
+awardDetails.contractDetails.reasonNotCompeted.name,not_competed_nm,Reason not competed name,Contract Details
+awardDetails.contractDetails.numberOfOffersReceived,offers_received,Number of offers received,Contract Details
+awardDetails.contractDetails.commercialItemAcquisitionProcedures.code,comm_item_proc_cd,Commercial item acquisition procedures code,Contract Details
+awardDetails.contractDetails.commercialItemAcquisitionProcedures.name,comm_item_proc_nm,Commercial item acquisition procedures name,Contract Details
+awardDetails.contractDetails.commercialItemTestProgram.code,comm_item_test_cd,Commercial item test program code,Contract Details
+awardDetails.contractDetails.commercialItemTestProgram.name,comm_item_test_nm,Commercial item test program name,Contract Details
+awardDetails.contractDetails.smallBusinessCompetitivenessDemonstrationProgram,sb_comp_demo,Small business competitiveness demo program flag,Contract Details
+awardDetails.contractDetails.awardingAgencyName,awarding_agency_nm,Awarding agency full name,Contract Details
+awardDetails.contractDetails.awardingSubtierAgency.code,awarding_subtier_cd,Awarding sub-tier agency code,Contract Details
+awardDetails.contractDetails.awardingSubtierAgency.name,awarding_subtier_nm,Awarding sub-tier agency name,Contract Details
+awardDetails.contractDetails.awardingOffice.code,awarding_office_cd,Awarding office code,Contract Details
+awardDetails.contractDetails.awardingOffice.name,awarding_office_nm,Awarding office name,Contract Details
+awardDetails.contractDetails.fundingAgency.code,funding_agency_cd,Funding agency code,Contract Details
+awardDetails.contractDetails.fundingAgency.name,funding_agency_nm,Funding agency name,Contract Details
+awardDetails.contractDetails.fundingSubtierAgency.code,funding_subtier_cd,Funding sub-tier agency code,Contract Details
+awardDetails.contractDetails.fundingSubtierAgency.name,funding_subtier_nm,Funding sub-tier agency name,Contract Details
+awardDetails.contractDetails.fundingOffice.code,funding_office_cd,Funding office code,Contract Details
+awardDetails.contractDetails.fundingOffice.name,funding_office_nm,Funding office name,Contract Details
+awardDetails.productOrServiceInformation.productOrServiceCode.code,psc_cd,Product or service code,Product/Service Info
+awardDetails.productOrServiceInformation.productOrServiceCode.name,psc_nm,Product or service code name,Product/Service Info
+awardDetails.productOrServiceInformation.contractBundling.code,bundling_cd,Contract bundling code,Product/Service Info
+awardDetails.productOrServiceInformation.contractBundling.name,bundling_nm,Contract bundling name,Product/Service Info
+awardDetails.productOrServiceInformation.claimantProgramCode.code,claimant_prog_cd,Claimant program code,Product/Service Info
+awardDetails.productOrServiceInformation.claimantProgramCode.name,claimant_prog_nm,Claimant program name,Product/Service Info
+awardDetails.productOrServiceInformation.systemOrEquipmentCode.code,sys_equip_cd,System or equipment code,Product/Service Info
+awardDetails.productOrServiceInformation.systemOrEquipmentCode.name,sys_equip_nm,System or equipment name,Product/Service Info
+awardDetails.productOrServiceInformation.informationTechnologyCommercialItemCategory.code,it_comm_item_cd,IT commercial item category code,Product/Service Info
+awardDetails.productOrServiceInformation.informationTechnologyCommercialItemCategory.name,it_comm_item_nm,IT commercial item category name,Product/Service Info
+awardDetails.productOrServiceInformation.principalNAICSCode.code,naics_cd,Principal NAICS code,Product/Service Info
+awardDetails.productOrServiceInformation.principalNAICSCode.name,naics_nm,Principal NAICS code description,Product/Service Info
+awardDetails.productOrServiceInformation.recoveredMaterialClauses.code,recycled_mat_cd,Recovered/recycled material clauses code,Product/Service Info
+awardDetails.productOrServiceInformation.recoveredMaterialClauses.name,recycled_mat_nm,Recovered/recycled material clauses name,Product/Service Info
+awardDetails.productOrServiceInformation.domesticOrForeignEntity.code,dom_foreign_cd,Domestic or foreign entity code,Product/Service Info
+awardDetails.productOrServiceInformation.domesticOrForeignEntity.name,dom_foreign_nm,Domestic or foreign entity name,Product/Service Info
+awardDetails.productOrServiceInformation.useOfEPADesignatedProducts.code,epa_prod_cd,Use of EPA designated products code,Product/Service Info
+awardDetails.productOrServiceInformation.useOfEPADesignatedProducts.name,epa_prod_nm,Use of EPA designated products name,Product/Service Info
+awardDetails.productOrServiceInformation.countryOfOrigin.code,origin_country_cd,Country of origin code,Product/Service Info
+awardDetails.productOrServiceInformation.countryOfOrigin.name,origin_country_nm,Country of origin name,Product/Service Info
+awardDetails.productOrServiceInformation.placeOfManufacture.code,mfg_place_cd,Place of manufacture code,Product/Service Info
+awardDetails.productOrServiceInformation.placeOfManufacture.name,mfg_place_nm,Place of manufacture name,Product/Service Info
+awardDetails.legislativeMandates.additionalReporting.code,addl_reporting_cd,Additional reporting code,Legislative Mandates
+awardDetails.legislativeMandates.additionalReporting.name,addl_reporting_nm,Additional reporting name,Legislative Mandates
+awardDetails.legislativeMandates.clingerCohenAct.code,clinger_cohen_cd,Clinger-Cohen Act code,Legislative Mandates
+awardDetails.legislativeMandates.clingerCohenAct.name,clinger_cohen_nm,Clinger-Cohen Act name,Legislative Mandates
+awardDetails.legislativeMandates.laborStandards.code,labor_std_cd,Labor standards code,Legislative Mandates
+awardDetails.legislativeMandates.laborStandards.name,labor_std_nm,Labor standards name,Legislative Mandates
+awardDetails.legislativeMandates.constructionWageRateRequirements.code,wage_rate_cd,Construction wage rate requirements code,Legislative Mandates
+awardDetails.legislativeMandates.constructionWageRateRequirements.name,wage_rate_nm,Construction wage rate requirements name,Legislative Mandates
+awardDetails.legislativeMandates.interagencyContractingAuthority.code,interagency_auth_cd,Interagency contracting authority code,Legislative Mandates
+awardDetails.legislativeMandates.interagencyContractingAuthority.name,interagency_auth_nm,Interagency contracting authority name,Legislative Mandates
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.locationCode,pop_location_cd,Place of performance location code,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.stateCode,pop_state_cd,Place of performance state code,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.stateName,pop_state_nm,Place of performance state name,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.countryCode,pop_country_cd,Place of performance country code,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.countryName,pop_country_nm,Place of performance country name,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.city,pop_city_nm,Place of performance city,Place of Performance
+awardDetails.placeOfPerformance.principalPlaceOfPerformance.zipCode,pop_zip,Place of performance ZIP code,Place of Performance
+awardDetails.placeOfPerformance.congressionalDistrict,pop_congress_dist,Congressional district of place of performance,Place of Performance
+awardDetails.preferenceProgramsInformation.contractingOfficerBusinessSizeDetermination.code,co_biz_size_cd,Contracting officer business size determination code,Preference Programs
+awardDetails.preferenceProgramsInformation.contractingOfficerBusinessSizeDetermination.name,co_biz_size_nm,Contracting officer business size determination name,Preference Programs
+awardDetails.preferenceProgramsInformation.subcontractPlan.code,subcontract_plan_cd,Subcontract plan code,Preference Programs
+awardDetails.preferenceProgramsInformation.subcontractPlan.name,subcontract_plan_nm,Subcontract plan name,Preference Programs
+awardDetails.preferenceProgramsInformation.idvContractingOfficerBusinessSizeDetermination.code,idv_co_biz_size_cd,IDV contracting officer business size determination code,Preference Programs
+awardDetails.preferenceProgramsInformation.idvContractingOfficerBusinessSizeDetermination.name,idv_co_biz_size_nm,IDV contracting officer business size determination name,Preference Programs
+awardeeData.awardeeHeader.awardeeName,awardee_nm,Awardee company name,Awardee
+awardeeData.awardeeHeader.awardeeAlternateName,awardee_alt_nm,Awardee alternate/DBA name,Awardee
+awardeeData.awardeeHeader.legalBusinessName,awardee_legal_nm,Awardee legal business name,Awardee
+awardeeData.awardeeHeader.awardeeNameFromContract,awardee_contract_nm,Awardee name as listed on contract,Awardee
+awardeeData.awardeeUEIInformation.uniqueEntityId,awardee_uei,Awardee Unique Entity Identifier (UEI),Awardee
+awardeeData.awardeeUEIInformation.cageCode,awardee_cage,Awardee CAGE code,Awardee
+awardeeData.awardeeUEIInformation.awardeeUltimateParentUniqueEntityId,awardee_parent_uei,Awardee ultimate parent UEI,Awardee
+awardeeData.awardeeUEIInformation.awardeeUltimateParentName,awardee_parent_nm,Awardee ultimate parent name,Awardee
+awardeeData.awardeeUEIInformation.awardeeImmediateParentUniqueEntityId,awardee_imm_parent_uei,Awardee immediate parent UEI (unrevealed only),Awardee
+awardeeData.awardeeUEIInformation.awardeeImmediateParentName,awardee_imm_parent_nm,Awardee immediate parent name (unrevealed only),Awardee
+awardeeData.awardeeLocation.streetAddress,awardee_addr1,Awardee street address line 1,Awardee
+awardeeData.awardeeLocation.streetAddress2,awardee_addr2,Awardee street address line 2,Awardee
+awardeeData.awardeeLocation.city,awardee_city,Awardee city,Awardee
+awardeeData.awardeeLocation.state.code,awardee_state_cd,Awardee state code,Awardee
+awardeeData.awardeeLocation.state.name,awardee_state_nm,Awardee state name,Awardee
+awardeeData.awardeeLocation.zipCode,awardee_zip,Awardee ZIP code,Awardee
+awardeeData.awardeeLocation.countryCode.code,awardee_country_cd,Awardee country code,Awardee
+awardeeData.awardeeLocation.countryCode.name,awardee_country_nm,Awardee country name,Awardee
+awardeeData.awardeeLocation.congressionalDistrict,awardee_congress_dist,Awardee congressional district,Awardee
+awardeeData.businessCategories.smallBusiness,awardee_small_biz,Small business flag,Awardee Business Type
+awardeeData.businessCategories.smallDisadvantagedBusiness,awardee_sdb,Small disadvantaged business flag,Awardee Business Type
+awardeeData.businessCategories.womenOwnedSmallBusiness,awardee_wosb,Women-owned small business flag,Awardee Business Type
+awardeeData.businessCategories.womenOwned,awardee_women_owned,Women-owned business flag,Awardee Business Type
+awardeeData.businessCategories.veteranOwnedBusiness,awardee_vob,Veteran-owned business flag,Awardee Business Type
+awardeeData.businessCategories.serviceDisabledVeteranOwnedBusiness,awardee_sdvob,Service-disabled veteran-owned business flag,Awardee Business Type
+awardeeData.businessCategories.hubZone,awardee_hubzone,HUBZone certified business flag,Awardee Business Type
+awardeeData.businessCategories.8aBusiness,awardee_8a,8(a) program participant flag,Awardee Business Type
+awardeeData.businessCategories.blackAmericanOwned,awardee_black_owned,Black American owned flag,Awardee Business Type
+awardeeData.businessCategories.hispanicAmericanOwned,awardee_hispanic_owned,Hispanic American owned flag,Awardee Business Type
+awardeeData.businessCategories.nativeAmericanOwned,awardee_native_owned,Native American owned flag,Awardee Business Type
+awardeeData.businessCategories.asianPacificAmericanOwned,awardee_aapi_owned,Asian Pacific American owned flag,Awardee Business Type
+awardeeData.businessCategories.subContinentAsianAmericanOwned,awardee_subcont_asian_owned,Subcontinent Asian American owned flag,Awardee Business Type
+awardeeData.businessCategories.alaskanNativeOwnedCorporation,awardee_alaska_native,Alaskan native owned corporation flag,Awardee Business Type
+awardeeData.businessCategories.indianTribe,awardee_indian_tribe,Indian tribe flag,Awardee Business Type
+awardeeData.businessCategories.triballyOwnedFirm,awardee_tribal_firm,Tribally owned firm flag,Awardee Business Type
+awardeeData.businessCategories.nativeHawaiianOwnedBusiness,awardee_hawaiian_owned,Native Hawaiian owned business flag,Awardee Business Type
+awardeeData.businessCategories.manufacturerOfGoods,awardee_mfg,Manufacturer of goods flag,Awardee Business Type
+awardeeData.businessCategories.corporateEntityNotTaxExempt,awardee_corp,Corporate entity not tax exempt flag,Awardee Business Type
+awardeeData.businessCategories.corporateEntityTaxExempt,awardee_corp_tax_exempt,Corporate entity tax exempt flag,Awardee Business Type
+awardeeData.businessCategories.partnershipOrLimitedLiabilityPartnership,awardee_llp,Partnership or LLC flag,Awardee Business Type
+awardeeData.businessCategories.soleProprietorship,awardee_sole_prop,Sole proprietorship flag,Awardee Business Type
+awardeeData.businessCategories.internationalOrganization,awardee_intl_org,International organization flag,Awardee Business Type
+awardeeData.businessCategories.usStateLocalGovernment,awardee_state_local_gov,US state/local government flag,Awardee Business Type
+awardeeData.businessCategories.usFederalGovernment,awardee_fed_gov,US federal government flag,Awardee Business Type
+awardeeData.businessCategories.federallyFundedResearchAndDevelopmentCorp,awardee_ffrdc,FFRDC flag,Awardee Business Type
+awardeeData.businessCategories.nonprofitOrganization,awardee_nonprofit,Nonprofit organization flag,Awardee Business Type
+awardeeData.businessCategories.foreignGovernment,awardee_foreign_gov,Foreign government flag,Awardee Business Type
+awardeeData.businessCategories.foreignOwnedAndLocated,awardee_foreign_owned,Foreign owned and located flag,Awardee Business Type
+contractMarketingData.typeOfFeeForUseOfService.code,fee_type_cd,Type of fee for use of service code,Contract Marketing
+contractMarketingData.typeOfFeeForUseOfService.name,fee_type_nm,Type of fee for use of service name,Contract Marketing
+contractMarketingData.orderingProcedure,ordering_proc,Ordering procedure,Contract Marketing
+contractMarketingData.programAcronym,prog_acronym,Program acronym,Contract Marketing
+contractMarketingData.agencyName,mktg_agency_nm,Agency name for marketing data,Contract Marketing
+contractMarketingData.numberOfActions,num_actions,Number of actions,Contract Marketing
